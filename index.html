@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Option K - Belt Exam  Web Fundamentals, Lisa Broadhead February 2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-wrp">
+        <nav>
+            <div class="logo-search-login-cart flex">
+                <div class="logo flex">
+                    <i class="fas fa-leaf"></i>
+                    <h2>EasyBy</h2>
+                </div>
+                <div class="search">
+                    <input type="text" class="text" placeholder="Search for anything">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="login-cart-wrp flex">
+                    <a href="#" onclick="login(event)">Sign In</a>
+                    <i class="fas fa-shopping-cart" onclick="triggerCart()"></i>
+                </div>
+            </div>
+            <div class="navs-wrp">
+                <i class="fas fa-bars" onclick="toggleActive('nav-itms')"></i>
+                <span class="nav-itms flex">
+                    <i class="fas fa-times" onclick="toggleActive('nav-itms')"></i>
+                    <a href="#">Aeonium</a>
+                    <a href="#">Andormischus</a>
+                    <a href="#">Agave</a>
+                    <a href="#">Aloe</a>
+                    <a href="#">Anacampersors</a>
+                    <a href="#">Airstale</a>
+                    <a href="#">More...</a>
+                </span>
+            </div>
+        </nav>
+
+        <main class="flex">
+            <h1>Your Source for Serious Succulent Specialties!</h1>
+            <div class="lg-cta-wrp col-2-3 flex">
+                <div class="txt-wrp col-2">
+                    <h3>Discover Succulen varties one por or rack at a time!</h3>
+                    <a href="#" class="md flex"><span>Discover</span> <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+                <img class="col-2" src="img/succulents-1.jpg" alt="images of succulents" onmouseover="this.src='img/succulents-2.jpg'" onmouseout="this.src='img/succulents-1.jpg'">
+            </div>
+            <div class="sm-cta-wrp col-1-3">
+                <img src="img/aloe-m.jpg" alt="image of succulents">
+                <button class="lg-button">Soothing Aloe <i class="fas fa-long-arrow-alt-right"></i></button>
+            </div>
+            <div class="succulent-type-wrp flex">
+                <a href="#" class="ind-type">
+                    <img src="img/aeonium-s.jpg" alt="image of Aeonium">
+                    <p>Aeonium</p>
+                </a>
+                <a href="#" class="ind-type">
+                    <img src="img/aloe-s.jpg" alt="image of Agave">
+                    <p>Agave</p>
+                </a>
+                <a href="#" class="ind-type">
+                    <img src="img/cactus-s.jpg" alt="image of Cactus">
+                    <p>Cactus</p>
+                </a>
+                <a href="#" class="ind-type">
+                    <img src="img/echeveria-s.jpg" alt="img of Echevria">
+                    <p>Echevria</p>
+                </a>
+                <a href="#" class="ind-type">
+                    <img src="img/sedum-s.jpg" alt="image of Sedum">
+                    <p>Sedum</p>
+                </a>
+                <a href="#" class="ind-type">
+                    <img src="img/sempervivum-s.jpg" alt="img of Sampervivum">
+                    <p>Sampervivum</p>
+                </a>
+           </div>  <!-- END: succulent-type-wrp -->
+        </main>
+    </div><!-- END: container-wrp -->
+
+    <div class="cookie-popup container-wrp flex">
+        <i class="fas fa-exclamation-triangle"></i>
+        <p>This site makes use of third party cookies, by clicking "I accept" you agee to the terms outlined in our <a href="#">Cookie policy</a>.</p>
+        <button class="button" onclick="removeItem('cookie-popup')">I accept</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
