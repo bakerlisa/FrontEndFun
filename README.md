@@ -3,7 +3,7 @@
 #### Langauges: 
 CSS, JS, HTML
 
-4 hours to complete everything from the custom styles to the mobile responsiveness 
+4 hours to complete everything from the custom styles, animations, and mobile responsiveness 
 
 ## Desktop:
 ![](https://github.com/lisabroadhead/webFunExam/blob/main/Screen%20Shot%202022-06-02%20at%209.28.10%20AM.png) 
