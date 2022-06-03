@@ -1,4 +1,4 @@
-# Web Fundamentals
+# Frontend Fun! 
 ![](https://github.com/lisabroadhead/FrontEndDevelopment/blob/main/Screen%20Recording%202022-06-02%20at%209.28.30%20AM.gif) 
 
 #### Langauges: 
